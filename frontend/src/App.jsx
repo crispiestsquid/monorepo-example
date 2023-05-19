@@ -6,7 +6,6 @@ import { constants } from 'shared/constants';
 
 function App() {
   const [count, setCount] = useState(0);
-  console.log('constants', constants);
 
   return (
     <>
@@ -30,6 +29,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <p>{JSON.stringify(constants)}</p>
     </>
   );
 }
