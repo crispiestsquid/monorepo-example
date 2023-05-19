@@ -30,6 +30,9 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <p>{JSON.stringify(constants)}</p>
+      <div className="bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3">
+        Tailwind
+      </div>
     </>
   );
 }
